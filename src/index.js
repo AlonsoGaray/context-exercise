@@ -4,9 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { VotingProvider } from './context/votingContext'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <VotingProvider>
+      <App />
+    </VotingProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
