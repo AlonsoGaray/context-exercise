@@ -1,4 +1,4 @@
-# Star Wars API
+# Context Exercise
 
 This is an exercise for Make It Real Bootcamp.
 Made by AlonsoGaray
